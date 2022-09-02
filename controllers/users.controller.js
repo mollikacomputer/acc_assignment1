@@ -13,8 +13,13 @@ let users = [
 ];
 
 module.exports.getAllUsers = (req, res, next) => {
-  res.send(users)
+  // res.send(users); or 
+  // res.json(users) // same working
+    const { limit, page } = req.query;
+  console.log(limit, page);
+  res.json(users.slice(0, limit));
 };
+
 // let users = [
 //   { id: 1, gender: "female", name:"suchitra", contact: "01914955559", photoUrl:"pic" },
 //   { id: 2, gender: "female", name:"sipra", contact: "01914333335", photoUrl:"pic2" },
