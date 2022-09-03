@@ -1,11 +1,21 @@
 const express = require('express');
 const userController = require('../../controllers/users.controller');
+const limiter = require('../../middleware/limiter');
 const router = express.Router();
 
-router.route('/')
-.get(userController.getAllUsers);
+router
+  .route('/')
+  .get(userController.getAllUsers)
+  .post(userController.saveAUser);
+
+// router
+//   .route("/:id")
+//   .get(userController.getUserDetail)
+//   .patch(userController.updateUser)
+//   .delete(userController.deleteUser);
 
 module.exports = router;
+
 // const express = require("express");
 // const usersControllers = require("../../controllers/tools.controller");
 // const limiter = require("../../middleware/limiter");

@@ -13,12 +13,22 @@ let users = [
 ];
 
 module.exports.getAllUsers = (req, res, next) => {
-  // res.send(users); or 
-  // res.json(users) // same working
-    const { limit, page } = req.query;
-  console.log(limit, page);
-  res.json(users.slice(0, limit));
+  console.log(users);
+  res.send(users);
 };
+
+module.exports.saveAUser = (req, res, next) => {
+  console.log(req.body);
+  res.send(req.body);
+  const newUser = req.body;
+  users.push(newUser);
+}
+// module.exports.saveAUser = (req, res) => {
+//   console.log(req.body);
+//   users.push(req.body);
+//   res.send(users);
+// };
+
 
 // let users = [
 //   { id: 1, gender: "female", name:"suchitra", contact: "01914955559", photoUrl:"pic" },
