@@ -1,14 +1,15 @@
+
 let users = [
-  { id: 1, gender: "female", name:"suchitra", contact: "01914955559", photoUrl:"pic" },
-  { id: 2, gender: "female", name:"sipra", contact: "01914333335", photoUrl:"pic2" },
-  { id: 3, gender: "female", name:"rinku", contact: "01914333334", photoUrl:"pic3" },
-  { id: 4, gender: "Male", name:"Ranjit", contact: "01911111111", photoUrl:"picPic1" },
-  { id: 5, gender: "Male", name:"Sanjit", contact: "01914999999", photoUrl:"picPic2" },
-  { id: 6, gender: "Male", name:"Rabindra", contact: "01914444444", photoUrl:"picPic3" },
-  { id: 7, gender: "Male", name:"Tipu", contact: "0191111111", photoUrl:"picPic4" },
-  { id: 8, gender: "Male", name:"Sujit", contact: "019111111", photoUrl:"picPic5" },
-  { id: 9, gender: "Male", name:"Biswajit", contact: "01911111", photoUrl:"picPic6" },
-  {id: 10, gender: "Male", name:"Sankar", contact: "0191111", photoUrl:"picPic7" },
+  { id: 1, gender: "female", name:"suchitra", contact: "01914955559", photoUrl:"http://localhost:5000/pic.png" },
+  { id: 2, gender: "female", name:"sipra", contact: "01914333335", photoUrl:"http://localhost:5000/pic2.png" },
+  { id: 3, gender: "female", name:"rinku", contact: "01914333334", photoUrl:"http://localhost:5000/pic.png" },
+  { id: 4, gender: "Male", name:"Ranjit", contact: "01911111111", photoUrl:"http://localhost:5000/pic2.png" },
+  { id: 5, gender: "Male", name:"Sanjit", contact: "01914999999", photoUrl:"http://localhost:5000/pic.png" },
+  { id: 6, gender: "Male", name:"Rabindra", contact: "01914444444", photoUrl:"http://localhost:5000/pic2.png" },
+  { id: 7, gender: "Male", name:"Tipu", contact: "0191111111", photoUrl:"http://localhost:5000/pic.png" },
+  { id: 8, gender: "Male", name:"Sujit", contact: "019111111", photoUrl:"http://localhost:5000/pic2.png" },
+  { id: 9, gender: "Male", name:"Biswajit", contact: "01911111", photoUrl:"http://localhost:5000/pic.png" },
+  {id: 10, gender: "Male", name:"Sankar", contact: "0191111", photoUrl:"http://localhost:5000/pic2.png" },
 
 ];
 
