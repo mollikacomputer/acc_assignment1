@@ -8,9 +8,9 @@ router
   .get(userController.getAllUsers)
   .post(userController.saveAUser);
 
-// router
-//   .route("/:id")
-//   .get(userController.getUserDetail)
+router
+  .route("/:id")
+  .get(userController.getUserDetail)
 //   .patch(userController.updateUser)
 //   .delete(userController.deleteUser);
 
